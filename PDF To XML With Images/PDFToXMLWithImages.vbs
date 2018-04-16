@@ -10,31 +10,28 @@
 '*****************************************************************************************'
 
 
-' Create TextExtractor object
-Set extractor = CreateObject("Bytescout.PDFExtractor.TextExtractor")
+' Create Bytescout.PDFExtractor.XMLExtractor object
+Set extractor = CreateObject("Bytescout.PDFExtractor.XMLExtractor")
+
 extractor.RegistrationName = "demo"
 extractor.RegistrationKey = "demo"
 
 ' Load sample PDF document
-extractor.LoadDocumentFromFile("..\..\sample1.pdf")
+extractor.LoadDocumentFromFile "../../sample1.pdf"
 
-' Get page count
-pageCount = extractor.GetPageCount()
+' Uncomment this line to get rid of empty nodes in XML
+'extractor.PreserveFormattingOnTextExtraction = False
 
-' Iterate through pages
-For i = 0 to pageCount - 1
+' Set output image format
+extractor.ImageFormat = 0 ' 0 = PNG; 1 = JPEG; 2 = GIF; 3 = BMP
 
-	' Set extraction area (in Points. 1 Point = 1/72 in.)
-	extractor.SetExtractionArea 0, 0, 200, 200
-	
-	' Extract text from the extraction area
-	text = extractor.GetTextFromPage(i)
+' Save images to external files
+extractor.SaveImages = 1 ' 1 = ImageHandling.OuterFile
+extractor.ImageFolder = "images" ' Folder for external images
+extractor.SaveXMLToFile "result_with_external_images.xml"
 
-	Wscript.echo "Page #" & CStr(i) & " text from area (0, 0, 200, 200): " & vbCr & vbLf & text
+' Embed images into XML as Base64 encoded string
+extractor.SaveImages = 2 ' 2 = ImageHandling.Embed
+extractor.SaveXMLToFile "result_with_embedded_images.xml"
 
-	extractor.ResetExtractionArea
-	
-Next
-
-Set extractor = Nothing
-
+WScript.Echo "Done."

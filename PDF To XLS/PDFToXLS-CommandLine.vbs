@@ -10,31 +10,23 @@
 '*****************************************************************************************'
 
 
-' Create TextExtractor object
-Set extractor = CreateObject("Bytescout.PDFExtractor.TextExtractor")
+if Wscript.Arguments.Length < 2 Then
+    WScript.Echo "Usage: PdfToXls.vbs ""input.pdf"" ""output.xlsx"""
+    WScript.Quit
+End If
+
+' Create Bytescout.PDFExtractor.XLSExtractor object
+Set extractor = CreateObject("Bytescout.PDFExtractor.XLSExtractor")
 extractor.RegistrationName = "demo"
 extractor.RegistrationKey = "demo"
 
+' Set Excel format
+extractor.OutputFormat = 1 ' 0 - XLS format; 1 - XLSX format.
+
 ' Load sample PDF document
-extractor.LoadDocumentFromFile("..\..\sample1.pdf")
+extractor.LoadDocumentFromFile WScript.Arguments.Item(0)
 
-' Get page count
-pageCount = extractor.GetPageCount()
+' Extract data to Excel format
+extractor.SaveToXLSFile WScript.Arguments.Item(1)
 
-' Iterate through pages
-For i = 0 to pageCount - 1
-
-	' Set extraction area (in Points. 1 Point = 1/72 in.)
-	extractor.SetExtractionArea 0, 0, 200, 200
-	
-	' Extract text from the extraction area
-	text = extractor.GetTextFromPage(i)
-
-	Wscript.echo "Page #" & CStr(i) & " text from area (0, 0, 200, 200): " & vbCr & vbLf & text
-
-	extractor.ResetExtractionArea
-	
-Next
-
-Set extractor = Nothing
-
+WScript.Echo "Extracted data saved to '" & WScript.Arguments.Item(1) & "' file."
