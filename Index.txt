@@ -1,42 +1,42 @@
 ## Index of source code examples:
 
-\Batch Processing
-\Compare Documents
-\Extract Attachments
-\Extract Image Coordinates By Page
-\Extract Images
-\Extract Images by Page
-\Extract Images Coordinates
-\Extract Info
-\Extract Pages
-\Extract Table Structure
-\Extract Text
-\Extract Text By Columns
-\Extract Text By Pages
-\Extract Text From Page Area
-\Find Hyphenated Text
-\Find Table And Extract As CSV
-\Find Table And Extract As XML
-\Find Text
-\Find Text Using Regex
+\Compare PDF Documents
+\convert PDF To CSV
+\convert PDF To CSV By Pages
+\convert PDF To JSON
+\convert PDF To JSON With Images
+\convert PDF To XFDF
+\convert PDF To XLS
+\convert PDF To XML
+\convert PDF To XML With Images
+\Extract Attachments from PDF
+\Extract Image Coordinates By Page from PDF
+\Extract Images by Page from PDF
+\Extract Images Coordinates from PDF
+\Extract Images from PDF
+\Extract Pages from PDF
+\Extract pdf Info from PDF
+\Extract Table Structure from PDF
+\Extract Text By Columns from PDF
+\Extract Text By Pages from PDF
+\Extract Text From Page Area from PDF
+\Extract Text from PDF
+\Find Hyphenated Text in PDF
+\Find PDF Table And Extract As CSV
+\Find PDF Table And Extract As XML
+\Find Text in PDF
+\Find Text in PDF Using Regex
 \Index PDF Files
 \Make Searchable PDF
 \Make Unsearchable PDF
-\Merge Documents
-\OCR (Optical Character Recognition)
-\OCR Analyser
-\PDF To CSV
-\PDF To CSV By Pages
-\PDF To JSON
-\PDF To JSON With Images
-\PDF To XFDF
-\PDF To XLS
-\PDF To XML
-\PDF To XML With Images
-\Profiles
-\Reduce Memory Usage
-\Remove Text
-\Rotate Document
-\Split Document
-\XFA Form To XML
+\Merge PDF Documents
+\OCR Analyser for PDF
+\PDF Extraction Profiles
+\PDF files Batch Processing
+\PDF OCR (Optical Character Recognition)
+\PDF XFA Form To XML
+\Reduce Memory Usage for PDF Extraction
+\Remove Text from PDF
+\Rotate PDF Document
+\Split PDF Document
 \ZUGFeRD Invoice Extraction
