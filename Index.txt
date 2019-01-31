@@ -1,14 +1,14 @@
 ## Index of source code examples:
 
 \Compare PDF Documents
-\convert PDF To CSV
-\convert PDF To CSV By Pages
-\convert PDF To JSON
-\convert PDF To JSON With Images
-\convert PDF To XFDF
-\convert PDF To XLS
-\convert PDF To XML
-\convert PDF To XML With Images
+\Convert PDF To CSV
+\Convert PDF To CSV By Pages
+\Convert PDF To JSON
+\Convert PDF To JSON With Images
+\Convert PDF To XFDF
+\Convert PDF To XLS
+\Convert PDF To XML
+\Convert PDF To XML With Images
 \Extract Attachments from PDF
 \Extract Image Coordinates By Page from PDF
 \Extract Images by Page from PDF
