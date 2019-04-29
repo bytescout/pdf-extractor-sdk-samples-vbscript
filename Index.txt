@@ -2,6 +2,7 @@
 
 \Compare PDF Documents
 \Convert PDF To CSV
+\Convert PDF To CSV (Merge multiline text to table cell)
 \Convert PDF To CSV By Pages
 \Convert PDF To JSON
 \Convert PDF To JSON With Images
