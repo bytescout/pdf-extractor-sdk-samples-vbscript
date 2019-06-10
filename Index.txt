@@ -34,6 +34,7 @@
 \OCR Analyser for PDF
 \OCR With Best Dataset
 \OCR With Fast Dataset
+\OCR With Mean Dataset
 \PDF Extraction Profiles
 \PDF files Batch Processing
 \PDF OCR (Optical Character Recognition)
