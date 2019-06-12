@@ -29,6 +29,8 @@
 \Find Text in PDF Using Regex
 \Index PDF Files
 \Make Searchable PDF
+\Make Searchable PDF and Fix Rotated Pages
+\Make Searchable PDF Discarding Existing Content
 \Make Unsearchable PDF
 \Merge PDF Documents
 \OCR Analyser for PDF
