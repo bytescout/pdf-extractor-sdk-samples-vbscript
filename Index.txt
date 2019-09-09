@@ -32,6 +32,7 @@
 \Make Searchable PDF and Fix Rotated Pages
 \Make Searchable PDF Discarding Existing Content
 \Make Unsearchable PDF
+\Merge All Documents Within Folder
 \Merge PDF Documents
 \OCR Analyser for PDF
 \OCR With Best Dataset
@@ -46,3 +47,4 @@
 \Rotate PDF Document
 \Split PDF Document
 \ZUGFeRD Invoice Extraction
+\Merge All Documents Within Folder\PDFDocs
