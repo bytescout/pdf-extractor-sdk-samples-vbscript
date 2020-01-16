@@ -27,6 +27,8 @@
 \Find PDF Table And Extract As XML
 \Find Text in PDF
 \Find Text in PDF Using Regex
+\Get Word Coordinates in JSON
+\Get Word Coordinates in XML
 \Index PDF Files
 \Make Searchable PDF
 \Make Searchable PDF and Fix Rotated Pages
