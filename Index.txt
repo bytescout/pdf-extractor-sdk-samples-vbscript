@@ -22,6 +22,7 @@
 \Extract Text By Pages from PDF
 \Extract Text From Page Area from PDF
 \Extract Text from PDF
+\Extraction From Complex Borderless Tables
 \Find Hyphenated Text in PDF
 \Find PDF Table And Extract As CSV
 \Find PDF Table And Extract As XML
