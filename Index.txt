@@ -1,5 +1,6 @@
 ## Index of source code examples:
 
+\Arabic Text Extraction
 \Compare PDF Documents
 \Convert PDF To CSV
 \Convert PDF To CSV (Merge multiline text to table cell)
