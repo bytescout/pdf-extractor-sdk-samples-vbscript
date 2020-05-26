@@ -11,6 +11,7 @@
 \Convert PDF To XLS
 \Convert PDF To XML
 \Convert PDF To XML With Images
+\Display License Info
 \Extract Attachments from PDF
 \Extract Image Coordinates By Page from PDF
 \Extract Images by Page from PDF
