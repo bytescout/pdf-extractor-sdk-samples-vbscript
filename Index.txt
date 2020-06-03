@@ -48,6 +48,7 @@
 \PDF Extraction Profiles
 \PDF files Batch Processing
 \PDF OCR (Optical Character Recognition)
+\PDF to Scanned PDF
 \PDF XFA Form To XML
 \Reduce Memory Usage for PDF Extraction
 \Remove Text from PDF
