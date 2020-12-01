@@ -2,6 +2,8 @@
 
 \Arabic Text Extraction
 \Compare PDF Documents
+\Convert PDF to Black and White
+\Convert PDF to Black and White Excluding some page
 \Convert PDF To CSV
 \Convert PDF To CSV (Merge multiline text to table cell)
 \Convert PDF To CSV By Pages
